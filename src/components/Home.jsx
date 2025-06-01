@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <div className="container">
-      <h1>Mega Uy Hayvonlar</h1>
+      <h1>Animals</h1>
       <Link to="/add" className="add-btn">
         + Yangi Qo‘shish
       </Link>
