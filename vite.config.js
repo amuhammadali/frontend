@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist'
+  },
+  server: {
+    proxy: {
+      '/pets': 'https://your-backend.onrender.com'
+    }
   }
 })
