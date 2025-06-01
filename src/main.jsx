@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 
 // 👇 Service Worker’ni unregister qilish (cache’ni oldini olish)
 if ('serviceWorker' in navigator) {
