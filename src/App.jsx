@@ -1,8 +1,7 @@
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import AddPet from "./components/AddPet";
-import "./App.css"; // Assuming you have some global styles
+import "./App.css"; 
 
 export default function App() {
   return (
