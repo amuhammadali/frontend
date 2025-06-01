@@ -65,7 +65,7 @@ function AddPet() {
           onChange={handleChange}
         />
 
-        {/* <label>
+        <label>
           <input
             type="checkbox"
             name="is_friendly"
@@ -73,7 +73,7 @@ function AddPet() {
             onChange={handleChange}
           />
           Do‘stona
-        </label> */}
+        </label>
 
         <button type="submit">Qo‘shish</button>
       </form>
