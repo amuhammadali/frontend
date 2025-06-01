@@ -14,12 +14,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy to Render
-        env:
-          RENDER_API_KEY: rnd_aoNlfUxPZcITL0jVORixPeAy57FM
-
-          RENDER_SERVICE_ID: srv-d0u7fhre5dus738qq96g
-        run: |
-          curl -X POST \
-            -H "Accept: application/json" \
-            -H "Authorization: Bearer $RENDER_API_KEY" \
-            https://api.render.com/deploy/$RENDER_SERVICE_ID
+        run: curl -X POST https://api.render.com/deploy/srv-d0u7fhre5dus738qq96g?key=S4uqJineP-o
