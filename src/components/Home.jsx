@@ -27,7 +27,7 @@ function Home() {
     <div className="container">
       <h1>Hayvonlar</h1>
       <Link to="/add" className="add-btn">
-        + Yangi Qo‘shish
+        + Yangi Qo‘shishsdfghuklkjhgfdfhjkl
       </Link>
       {pets.map((pet) => (
         <div className="pet-card" key={pet.id}>
