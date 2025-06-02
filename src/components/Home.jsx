@@ -34,9 +34,9 @@ function Home() {
           <div className="pet-card-info">
             {pet.name} — {pet.species}
           </div>
-          <button className="delete-btn" onClick={() => deletePet(pet.id)}>
+          {/* <button className="delete-btn" onClick={() => deletePet(pet.id)}>
             🗑 O‘chirish
-          </button>
+          </button> */}
         </div>
       ))}
     </div>
